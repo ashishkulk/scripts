@@ -9,7 +9,7 @@
 # Include in your builds via
 # \curl -sSL https://raw.githubusercontent.com/codeship/scripts/master/packages/mongodb.sh | bash -s
 MONGODB_VERSION=${MONGODB_VERSION:="3.0.4"}
-MONGODB_PORT=${MONGODB_PORT:="27018"}
+MONGODB_PORT=${MONGODB_PORT:="27017"}
 MONGODB_DIR=${MONGODB_DIR:="$HOME/mongodb"}
 MONGODB_WAIT_TIME=${MONGODB_WAIT_TIME:="10"}
 MONGODB_START=${MONGODB_START:="Y"}
